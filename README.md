@@ -6,7 +6,7 @@ As the code stands, the classifier runs with
 - 625 hidden units
 
 ## Features:
-- Loads the gzipped csv-files
+- Loads the image files from: http://yann.lecun.com/exdb/mnist/
 - Displays 10 randomly selected digits together with corresponding labels before classification
 - Runs the classification with batch size 100
 - Average traning and test loss is then visualized.
