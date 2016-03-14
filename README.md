@@ -1,9 +1,11 @@
 # mnist-classifier
-Applies a simple neural network to classify handwritten digits. The mnist dataset needed to run this classifier is found [here](http://yann.lecun.com/exdb/mnist/). The [Lasagne tutorial](http://lasagne.readthedocs.org/en/latest/user/tutorial.html) serve as a major inspiration.
+Applies a simple neural network to classify handwritten digits. The mnist dataset needed to run this classifier is automatically downloaded. The [Lasagne tutorial](http://lasagne.readthedocs.org/en/latest/user/tutorial.html) serve as a major inspiration.
 
 As the code stands, the classifier runs with
 - 1 hidden layer
 - 625 hidden units
+- A batch size of 100
+- 100 epochs
 
 ## Features:
 - Loads the image files from: http://yann.lecun.com/exdb/mnist/
