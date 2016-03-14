@@ -7,6 +7,8 @@ As the code stands, the classifier runs with
 - A batch size of 100
 - 100 epochs
 
+One run before uploading yielded an accuracy of 97.29% on the test set.
+
 ## Features:
 - Loads the image files from: http://yann.lecun.com/exdb/mnist/
 - Displays 10 randomly selected digits together with corresponding labels before classification
